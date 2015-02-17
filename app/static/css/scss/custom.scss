@@ -1,0 +1,40 @@
+@import "materialize.scss";
+body {
+    @extend .grey.lighten-5;
+}
+.verbs {
+    @extend .white-text;
+    .row {
+        margin-bottom: 10px;
+    }
+    .card-panel {
+        margin: 0px;
+    }
+    .code-panel {
+        @extend .deep-orange;
+    }
+    .read-panel {
+        @extend .cyan;
+    }
+    .drink-panel {
+        @extend .lime;
+    }
+}
+.nav-wrapper {
+    @extend .black;
+    .brand-logo {
+        padding-left: 20px;
+    }
+    ul {
+        padding-right: 20px;
+    }
+}
+.row {
+    @extend .center-align;
+}
+.intro {
+    padding-top: 60px;
+}
+.verbs {
+    padding-top: 60px;
+}
