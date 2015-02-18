@@ -3,67 +3,77 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bread & Circuits</title>
 
-    <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <!-- Custom -->
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/materialize.css') }} " media="screen,projection" />
+
+    <!-- Import custom css -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+
+    <!--Import jQuery before materialize.js-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="{{ url_for('static', filename='js/materialize/bin/materialize.min.js') }}"></script>
 </head>
 
-<body>
-    <div class="container-fluid">
-
-        <div class="heading">
-            <h1>Verbs to live by.</h1>
-            <p class="lead">
-                <br>
-            </p>
+<body class="body">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><i class="large mdi-image-remove-red-eye"></i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="">About</a>
+                </li>
+                <li><a href="">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="jumbotron interior" id="https://github.com/volk0ff" style="background-color: #0068a8">
-            <div class="col-xs-12 text-center">
-                <h2>Code</h2>
+    <div class="container intro">
+        <div class="row">
+            <div class="col s12">
+                <h2>Verbs to live by.</h2>
             </div>
         </div>
-
-        <div class="jumbotron interior" id="{{ url_for('index_bp.index') }}" style="background-color: #8d1031">
-            <div class="col-xs-12 text-center">
-                <h2>Read</h2>
-            </div>
-        </div>
-
-        <div class="jumbotron interior" id="http://www.totalwine.com/eng/search/Yamazaki_Single__18Y_Malt_Whisky" style="background-color: #005e2d">
-            <div class="col-12 text-center">
-                <h2>Drink</h2>
-            </div>
-        </div>
-
     </div>
 
+    <div class="container verbs">
+        <div class="row">
+            <div class="col s12 m8 offset-m2">
+                <div class="card-panel code-panel" id="https://github.com/volk0ff">
+                    <h4>Code</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m8 offset-m2">
+                <div id="{{ url_for('index_bp.read') }}" class="card-panel read-panel">
+                    <h4>Read</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m8 offset-m2">
+                <div id="http://www.totalwine.com/eng/search/Yamazaki_Single__18Y_Malt_Whisky" class="card-panel drink-panel">
+                    <h4>Drink</h4>
+                </div>
+            </div>
+        </div>
+    </div>
     <script>
     var def_color;
-    $('.interior').hover(
+    $('.verbs .card-panel').hover(
         function() {
-            def_color = $(this).css('background-color');
-            $(this).stop().animate({
-                'background-color': 'black'
-            }, 100);
+            $(this).toggleClass('darken-4');
         },
         function() {
-            $(this).stop().animate({
-                'background-color': def_color
-            }, 100);
+            $(this).toggleClass('darken-4');
         });
 
-    $('.interior').click(function() {
+    $('.verbs .card-panel').click(function() {
         var link = $(this).attr('id');
         window.location.href = link;
         return false;

@@ -8,8 +8,12 @@ index_bp = Blueprint('index_bp', __name__)
 
 @index_bp.route('/', methods=['GET'])
 def index():
-    return render_template('index_mat.html')
+    return render_template('index.html')
 
+@index_bp.route('/read', methods=['GET'])
+def read():
+    return render_template('read.html')
+    
 @index_bp.route('/api/', methods=['GET'])
 def api():
     stocks = request.args.getlist('ticker')
@@ -29,12 +33,12 @@ def api():
     }]
     resp_data = json.dumps(chart_data) 
     response = make_response(resp_data)
-    response.headers['Cache-Control'] = 'max-age=60'
+    response.headers['Cache-Control'] = 'max-age=6000'
 
     return response
 
 @index_bp.route('/models/', methods=['GET'])
-def index_bootstrap():
+def models():
     return render_template('models.html')
 
 	
