@@ -19,7 +19,6 @@ def api():
     stocks = request.args.getlist('ticker')
     data = qdl.get(stocks, authtoken='gkwJrhqSMNGaSpYMLMug')
     data.reset_index(inplace=True)
-    print(data.info())
     series_data_dac = data[['Date', 'GOOG.NYSE_DAC - Close']].dropna().to_json(orient='values')
     series_data_aapl = data[['Date', 'GOOG.NASDAQ_AAPL - Close']].dropna().to_json(orient='values')
 
@@ -33,7 +32,7 @@ def api():
     }]
     resp_data = json.dumps(chart_data) 
     response = make_response(resp_data)
-    response.headers['Cache-Control'] = 'max-age=6000'
+    response.headers['Cache-Control'] = 'max-age=0'
 
     return response
 
