@@ -32,7 +32,7 @@ def api():
     }]
     resp_data = json.dumps(chart_data) 
     response = make_response(resp_data)
-    response.headers['Cache-Control'] = 'max-age=0'
+    response.headers['Cache-Control'] = 'max-age=6000'
 
     return response
 
