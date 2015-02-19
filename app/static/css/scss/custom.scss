@@ -33,8 +33,18 @@ body {
     @extend .center-align;
 }
 .intro {
-    padding-top: 60px;
+    padding-top: 30px;
 }
 .verbs {
-    padding-top: 60px;
+    padding-top: 30px;
+}
+footer.page-footer {
+    padding-top: 0px;
+    margin-top: 40px;
+    @extend .white;
+    .footer-copyright {
+        padding-left: 20px;
+        @extend .black-text;
+        @extend .grey.lighten-5;
+    }
 }

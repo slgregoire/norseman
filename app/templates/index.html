@@ -42,27 +42,33 @@
 
     <div class="container verbs">
         <div class="row">
-            <div class="col s12 m8 offset-m2">
-                <div class="card-panel code-panel" id="https://github.com/volk0ff">
+            <div class="col s12 m6 offset-m3">
+                <div id="{{ url_for('index_bp.code') }}" class="card-panel code-panel">
                     <h4>Code</h4>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col s12 m8 offset-m2">
+            <div class="col s12 m6 offset-m3">
                 <div id="{{ url_for('index_bp.read') }}" class="card-panel read-panel">
                     <h4>Read</h4>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col s12 m8 offset-m2">
-                <div id="http://www.totalwine.com/eng/search/Yamazaki_Single__18Y_Malt_Whisky" class="card-panel drink-panel">
+            <div class="col s12 m6 offset-m3">
+                <div id="{{ url_for('index_bp.drink') }}" class="card-panel drink-panel">
                     <h4>Drink</h4>
                 </div>
             </div>
         </div>
     </div>
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            ©2014 ToothBrush+Bear
+        </div>
+    </footer>
     <script>
     var def_color;
     $('.verbs .card-panel').hover(

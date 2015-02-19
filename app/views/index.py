@@ -10,9 +10,17 @@ index_bp = Blueprint('index_bp', __name__)
 def index():
     return render_template('index.html')
 
-@index_bp.route('/read', methods=['GET'])
+@index_bp.route('/read/', methods=['GET'])
 def read():
     return render_template('read.html')
+
+@index_bp.route('/code/', methods=['GET'])
+def code():
+    return render_template('code.html')
+
+@index_bp.route('/drink/', methods=['GET'])
+def drink():
+    return render_template('drink.html')
     
 @index_bp.route('/api/', methods=['GET'])
 def api():
