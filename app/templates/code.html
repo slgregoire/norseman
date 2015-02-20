@@ -8,11 +8,7 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <!--Import materialize.css-->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/materialize.css') }} " media="screen,projection" />
-
-    <!-- Import custom css -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom_code.css') }}">
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
 
     <!--Import jQuery before materialize.js-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -24,9 +20,9 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper cyan">
-            <a href="{{ url_for('index_bp.index') }}" class="brand-logo"><i class="large mdi-image-nature"></i></a>
+    <nav class="code">
+        <div class="nav-wrapper">
+            <a href="{{ url_for('index_bp.index') }}" class="brand-logo"><i class="mdi-av-fast-rewind"></i></a>
         </div>
     </nav>
 </body>

@@ -646,85 +646,85 @@
 .light-blue-text.text-accent-4 {
   color: #0091ea !important; }
 
-.cyan.lighten-5, .verbs .lighten-5.read-panel {
+.cyan.lighten-5, .verbs .lighten-5.read-panel, nav.read .lighten-5.nav-wrapper {
   background-color: #e0f7fa !important; }
 
 .cyan-text.text-lighten-5 {
   color: #e0f7fa !important; }
 
-.cyan.lighten-4, .verbs .lighten-4.read-panel {
+.cyan.lighten-4, .verbs .lighten-4.read-panel, nav.read .lighten-4.nav-wrapper {
   background-color: #b2ebf2 !important; }
 
 .cyan-text.text-lighten-4 {
   color: #b2ebf2 !important; }
 
-.cyan.lighten-3, .verbs .lighten-3.read-panel {
+.cyan.lighten-3, .verbs .lighten-3.read-panel, nav.read .lighten-3.nav-wrapper {
   background-color: #80deea !important; }
 
 .cyan-text.text-lighten-3 {
   color: #80deea !important; }
 
-.cyan.lighten-2, .verbs .lighten-2.read-panel {
+.cyan.lighten-2, .verbs .lighten-2.read-panel, nav.read .lighten-2.nav-wrapper {
   background-color: #4dd0e1 !important; }
 
 .cyan-text.text-lighten-2 {
   color: #4dd0e1 !important; }
 
-.cyan.lighten-1, .verbs .lighten-1.read-panel {
+.cyan.lighten-1, .verbs .lighten-1.read-panel, nav.read .lighten-1.nav-wrapper {
   background-color: #26c6da !important; }
 
 .cyan-text.text-lighten-1 {
   color: #26c6da !important; }
 
-.cyan, .verbs .read-panel {
+.cyan, .verbs .read-panel, nav.read .nav-wrapper {
   background-color: #00bcd4 !important; }
 
 .cyan-text {
   color: #00bcd4 !important; }
 
-.cyan.darken-1, .verbs .darken-1.read-panel {
+.cyan.darken-1, .verbs .darken-1.read-panel, nav.read .darken-1.nav-wrapper {
   background-color: #00acc1 !important; }
 
 .cyan-text.text-darken-1 {
   color: #00acc1 !important; }
 
-.cyan.darken-2, .verbs .darken-2.read-panel {
+.cyan.darken-2, .verbs .darken-2.read-panel, nav.read .darken-2.nav-wrapper {
   background-color: #0097a7 !important; }
 
 .cyan-text.text-darken-2 {
   color: #0097a7 !important; }
 
-.cyan.darken-3, .verbs .darken-3.read-panel {
+.cyan.darken-3, .verbs .darken-3.read-panel, nav.read .darken-3.nav-wrapper {
   background-color: #00838f !important; }
 
 .cyan-text.text-darken-3 {
   color: #00838f !important; }
 
-.cyan.darken-4, .verbs .darken-4.read-panel {
+.cyan.darken-4, .verbs .darken-4.read-panel, nav.read .darken-4.nav-wrapper {
   background-color: #006064 !important; }
 
 .cyan-text.text-darken-4 {
   color: #006064 !important; }
 
-.cyan.accent-1, .verbs .accent-1.read-panel {
+.cyan.accent-1, .verbs .accent-1.read-panel, nav.read .accent-1.nav-wrapper {
   background-color: #84ffff !important; }
 
 .cyan-text.text-accent-1 {
   color: #84ffff !important; }
 
-.cyan.accent-2, .verbs .accent-2.read-panel {
+.cyan.accent-2, .verbs .accent-2.read-panel, nav.read .accent-2.nav-wrapper {
   background-color: #18ffff !important; }
 
 .cyan-text.text-accent-2 {
   color: #18ffff !important; }
 
-.cyan.accent-3, .verbs .accent-3.read-panel {
+.cyan.accent-3, .verbs .accent-3.read-panel, nav.read .accent-3.nav-wrapper {
   background-color: #00e5ff !important; }
 
 .cyan-text.text-accent-3 {
   color: #00e5ff !important; }
 
-.cyan.accent-4, .verbs .accent-4.read-panel {
+.cyan.accent-4, .verbs .accent-4.read-panel, nav.read .accent-4.nav-wrapper {
   background-color: #00b8d4 !important; }
 
 .cyan-text.text-accent-4 {
@@ -982,85 +982,85 @@
 .light-green-text.text-accent-4 {
   color: #64dd17 !important; }
 
-.lime.lighten-5, .verbs .lighten-5.drink-panel {
+.lime.lighten-5, .verbs .lighten-5.drink-panel, nav.drink .lighten-5.nav-wrapper {
   background-color: #f9fbe7 !important; }
 
 .lime-text.text-lighten-5 {
   color: #f9fbe7 !important; }
 
-.lime.lighten-4, .verbs .lighten-4.drink-panel {
+.lime.lighten-4, .verbs .lighten-4.drink-panel, nav.drink .lighten-4.nav-wrapper {
   background-color: #f0f4c3 !important; }
 
 .lime-text.text-lighten-4 {
   color: #f0f4c3 !important; }
 
-.lime.lighten-3, .verbs .lighten-3.drink-panel {
+.lime.lighten-3, .verbs .lighten-3.drink-panel, nav.drink .lighten-3.nav-wrapper {
   background-color: #e6ee9c !important; }
 
 .lime-text.text-lighten-3 {
   color: #e6ee9c !important; }
 
-.lime.lighten-2, .verbs .lighten-2.drink-panel {
+.lime.lighten-2, .verbs .lighten-2.drink-panel, nav.drink .lighten-2.nav-wrapper {
   background-color: #dce775 !important; }
 
 .lime-text.text-lighten-2 {
   color: #dce775 !important; }
 
-.lime.lighten-1, .verbs .lighten-1.drink-panel {
+.lime.lighten-1, .verbs .lighten-1.drink-panel, nav.drink .lighten-1.nav-wrapper {
   background-color: #d4e157 !important; }
 
 .lime-text.text-lighten-1 {
   color: #d4e157 !important; }
 
-.lime, .verbs .drink-panel {
+.lime, .verbs .drink-panel, nav.drink .nav-wrapper {
   background-color: #cddc39 !important; }
 
 .lime-text {
   color: #cddc39 !important; }
 
-.lime.darken-1, .verbs .darken-1.drink-panel {
+.lime.darken-1, .verbs .darken-1.drink-panel, nav.drink .darken-1.nav-wrapper {
   background-color: #c0ca33 !important; }
 
 .lime-text.text-darken-1 {
   color: #c0ca33 !important; }
 
-.lime.darken-2, .verbs .darken-2.drink-panel {
+.lime.darken-2, .verbs .darken-2.drink-panel, nav.drink .darken-2.nav-wrapper {
   background-color: #afb42b !important; }
 
 .lime-text.text-darken-2 {
   color: #afb42b !important; }
 
-.lime.darken-3, .verbs .darken-3.drink-panel {
+.lime.darken-3, .verbs .darken-3.drink-panel, nav.drink .darken-3.nav-wrapper {
   background-color: #9e9d24 !important; }
 
 .lime-text.text-darken-3 {
   color: #9e9d24 !important; }
 
-.lime.darken-4, .verbs .darken-4.drink-panel {
+.lime.darken-4, .verbs .darken-4.drink-panel, nav.drink .darken-4.nav-wrapper {
   background-color: #827717 !important; }
 
 .lime-text.text-darken-4 {
   color: #827717 !important; }
 
-.lime.accent-1, .verbs .accent-1.drink-panel {
+.lime.accent-1, .verbs .accent-1.drink-panel, nav.drink .accent-1.nav-wrapper {
   background-color: #f4ff81 !important; }
 
 .lime-text.text-accent-1 {
   color: #f4ff81 !important; }
 
-.lime.accent-2, .verbs .accent-2.drink-panel {
+.lime.accent-2, .verbs .accent-2.drink-panel, nav.drink .accent-2.nav-wrapper {
   background-color: #eeff41 !important; }
 
 .lime-text.text-accent-2 {
   color: #eeff41 !important; }
 
-.lime.accent-3, .verbs .accent-3.drink-panel {
+.lime.accent-3, .verbs .accent-3.drink-panel, nav.drink .accent-3.nav-wrapper {
   background-color: #c6ff00 !important; }
 
 .lime-text.text-accent-3 {
   color: #c6ff00 !important; }
 
-.lime.accent-4, .verbs .accent-4.drink-panel {
+.lime.accent-4, .verbs .accent-4.drink-panel, nav.drink .accent-4.nav-wrapper {
   background-color: #aeea00 !important; }
 
 .lime-text.text-accent-4 {
@@ -1318,85 +1318,85 @@
 .orange-text.text-accent-4 {
   color: #ff6d00 !important; }
 
-.deep-orange.lighten-5, .verbs .lighten-5.code-panel {
+.deep-orange.lighten-5, .verbs .lighten-5.code-panel, nav.code .lighten-5.nav-wrapper {
   background-color: #fbe9e7 !important; }
 
 .deep-orange-text.text-lighten-5 {
   color: #fbe9e7 !important; }
 
-.deep-orange.lighten-4, .verbs .lighten-4.code-panel {
+.deep-orange.lighten-4, .verbs .lighten-4.code-panel, nav.code .lighten-4.nav-wrapper {
   background-color: #ffccbc !important; }
 
 .deep-orange-text.text-lighten-4 {
   color: #ffccbc !important; }
 
-.deep-orange.lighten-3, .verbs .lighten-3.code-panel {
+.deep-orange.lighten-3, .verbs .lighten-3.code-panel, nav.code .lighten-3.nav-wrapper {
   background-color: #ffab91 !important; }
 
 .deep-orange-text.text-lighten-3 {
   color: #ffab91 !important; }
 
-.deep-orange.lighten-2, .verbs .lighten-2.code-panel {
+.deep-orange.lighten-2, .verbs .lighten-2.code-panel, nav.code .lighten-2.nav-wrapper {
   background-color: #ff8a65 !important; }
 
 .deep-orange-text.text-lighten-2 {
   color: #ff8a65 !important; }
 
-.deep-orange.lighten-1, .verbs .lighten-1.code-panel {
+.deep-orange.lighten-1, .verbs .lighten-1.code-panel, nav.code .lighten-1.nav-wrapper {
   background-color: #ff7043 !important; }
 
 .deep-orange-text.text-lighten-1 {
   color: #ff7043 !important; }
 
-.deep-orange, .verbs .code-panel {
+.deep-orange, .verbs .code-panel, nav.code .nav-wrapper {
   background-color: #ff5722 !important; }
 
 .deep-orange-text {
   color: #ff5722 !important; }
 
-.deep-orange.darken-1, .verbs .darken-1.code-panel {
+.deep-orange.darken-1, .verbs .darken-1.code-panel, nav.code .darken-1.nav-wrapper {
   background-color: #f4511e !important; }
 
 .deep-orange-text.text-darken-1 {
   color: #f4511e !important; }
 
-.deep-orange.darken-2, .verbs .darken-2.code-panel {
+.deep-orange.darken-2, .verbs .darken-2.code-panel, nav.code .darken-2.nav-wrapper {
   background-color: #e64a19 !important; }
 
 .deep-orange-text.text-darken-2 {
   color: #e64a19 !important; }
 
-.deep-orange.darken-3, .verbs .darken-3.code-panel {
+.deep-orange.darken-3, .verbs .darken-3.code-panel, nav.code .darken-3.nav-wrapper {
   background-color: #d84315 !important; }
 
 .deep-orange-text.text-darken-3 {
   color: #d84315 !important; }
 
-.deep-orange.darken-4, .verbs .darken-4.code-panel {
+.deep-orange.darken-4, .verbs .darken-4.code-panel, nav.code .darken-4.nav-wrapper {
   background-color: #bf360c !important; }
 
 .deep-orange-text.text-darken-4 {
   color: #bf360c !important; }
 
-.deep-orange.accent-1, .verbs .accent-1.code-panel {
+.deep-orange.accent-1, .verbs .accent-1.code-panel, nav.code .accent-1.nav-wrapper {
   background-color: #ff9e80 !important; }
 
 .deep-orange-text.text-accent-1 {
   color: #ff9e80 !important; }
 
-.deep-orange.accent-2, .verbs .accent-2.code-panel {
+.deep-orange.accent-2, .verbs .accent-2.code-panel, nav.code .accent-2.nav-wrapper {
   background-color: #ff6e40 !important; }
 
 .deep-orange-text.text-accent-2 {
   color: #ff6e40 !important; }
 
-.deep-orange.accent-3, .verbs .accent-3.code-panel {
+.deep-orange.accent-3, .verbs .accent-3.code-panel, nav.code .accent-3.nav-wrapper {
   background-color: #ff3d00 !important; }
 
 .deep-orange-text.text-accent-3 {
   color: #ff3d00 !important; }
 
-.deep-orange.accent-4, .verbs .accent-4.code-panel {
+.deep-orange.accent-4, .verbs .accent-4.code-panel, nav.code .accent-4.nav-wrapper {
   background-color: #dd2c00 !important; }
 
 .deep-orange-text.text-accent-4 {
@@ -1582,25 +1582,25 @@
 .grey-text.text-darken-4 {
   color: #212121 !important; }
 
-.shades.black, .shades.nav-wrapper {
+.shades.black, nav.index .shades.nav-wrapper {
   background-color: #000000 !important; }
 
 .shades-text.text-black {
   color: #000000 !important; }
 
-.shades.white, footer.shades.page-footer {
+.shades.white {
   background-color: #FFFFFF !important; }
 
 .shades-text.text-white {
   color: #FFFFFF !important; }
 
-.black, .nav-wrapper {
+.black, nav.index .nav-wrapper {
   background-color: #000000 !important; }
 
 .black-text, footer.page-footer .footer-copyright {
   color: #000000 !important; }
 
-.white, footer.page-footer {
+.white {
   background-color: #FFFFFF !important; }
 
 .white-text, .verbs {
@@ -7833,9 +7833,9 @@ ul.side-nav.fixed .collapsible-body li.active {
 .verbs .card-panel {
   margin: 0px; }
 
-.nav-wrapper .brand-logo {
+nav.index .nav-wrapper .brand-logo {
   padding-left: 20px; }
-.nav-wrapper ul {
+nav.index .nav-wrapper ul {
   padding-right: 20px; }
 
 .intro {
@@ -7846,8 +7846,26 @@ ul.side-nav.fixed .collapsible-body li.active {
 
 footer.page-footer {
   padding-top: 0px;
-  margin-top: 40px; }
+  margin-top: 40px;
+  position: fixed;
+  left: 0;
+  bottom: 0; }
   footer.page-footer .footer-copyright {
     padding-left: 20px; }
+
+nav.code .nav-wrapper .brand-logo {
+  padding-left: 20px; }
+nav.code .nav-wrapper ul {
+  padding-right: 20px; }
+
+nav.drink .nav-wrapper .brand-logo {
+  padding-left: 20px; }
+nav.drink .nav-wrapper ul {
+  padding-right: 20px; }
+
+nav.read .nav-wrapper .brand-logo {
+  padding-left: 20px; }
+nav.read .nav-wrapper ul {
+  padding-right: 20px; }
 
 /*# sourceMappingURL=custom.css.map */

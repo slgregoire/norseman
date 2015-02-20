@@ -1,50 +1,6 @@
 @import "materialize.scss";
-body {
-    @extend .grey.lighten-5;
-}
-.verbs {
-    @extend .white-text;
-    .row {
-        margin-bottom: 10px;
-    }
-    .card-panel {
-        margin: 0px;
-    }
-    .code-panel {
-        @extend .deep-orange;
-    }
-    .read-panel {
-        @extend .cyan;
-    }
-    .drink-panel {
-        @extend .lime;
-    }
-}
-.nav-wrapper {
-    @extend .black;
-    .brand-logo {
-        padding-left: 20px;
-    }
-    ul {
-        padding-right: 20px;
-    }
-}
-.row {
-    @extend .center-align;
-}
-.intro {
-    padding-top: 30px;
-}
-.verbs {
-    padding-top: 30px;
-}
-footer.page-footer {
-    padding-top: 0px;
-    margin-top: 40px;
-    @extend .white;
-    .footer-copyright {
-        padding-left: 20px;
-        @extend .black-text;
-        @extend .grey.lighten-5;
-    }
-}
+
+@import "custom_index.scss";
+@import "custom_code.scss";
+@import "custom_drink.scss";
+@import "custom_read.scss";
