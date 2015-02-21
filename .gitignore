@@ -52,3 +52,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#grunt dependencies
+node_modules/
