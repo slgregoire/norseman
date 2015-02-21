@@ -55,3 +55,6 @@ target/
 
 #grunt dependencies
 node_modules/
+
+#sass cache (is this ok to ignore?)
+.sass-cache/
