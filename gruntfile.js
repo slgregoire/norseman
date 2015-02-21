@@ -11,45 +11,36 @@ module.exports = function(grunt) {
 
         //compile scss files into css files
         sass: {
-            folder: {
-                //compile entire folder of scss files
-                files: [{
-                    expand: true,
-                    cwd: 'app/static/css/scss',
-                    src: ['*.scss'],
-                    dest: 'app/static/css',
-                    ext: '.css'
-                }]
-            },
-            file: {
-                //compile single scss file
-                files: {
-                    'app/static/css/custom.css': 'app/static/css/scss/custom.scss'
-                }
+            dev: {
+                src: 'app/static/css/scss/combined.scss',
+                dest: 'app/static/css/combined.css'
             }
         },
+
         //concatenate files
         concat: {
-            css: {
-                src: ['app/static/css/*.css'],
-                dest: 'app/static/css/single.css'
-            },
-            scss: {
-                src: ['app/static/css/scss/*.scss'],
-                dest: 'app/static/css/scss/master.scss'
+            dev: {
+                src: ['app/static/css/scss/materialize.scss','app/static/css/scss/*.scss', '!app/static/css/scss/combined.scss'],
+                dest: 'app/static/css/scss/combined.scss'
+            }
+        },
+
+        //minifies css files
+        cssmin: {
+            dev: {
+                src: 'app/static/css/combined.css',
+                dest: 'app/static/css/combined.min.css'
             }
 
         },
-        cssmin: {
+
+        watch: {
             dev: {
-                src: 'app/static/css/custom.css',
-                dest: 'app/static/css/custom.css'
+                files: ['app/static/css/scss/*.scss'],
+                tasks:['concat:dev', 'sass:dev', 'cssmin:dev']
             }
-
         }
-
     });
 
-    grunt.registerTask('buildcss', ['sass:file', 'cssmin:dev']);
-
+    grunt.registerTask('default', ['watch:dev']);
 }
