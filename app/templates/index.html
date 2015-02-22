@@ -65,22 +65,8 @@
             ©2014 ToothBrush_Bear
         </div>
     </footer>
-    <script>
-    var def_color;
-    $('.verbs .card-panel').hover(
-        function() {
-            $(this).toggleClass('darken-4');
-        },
-        function() {
-            $(this).toggleClass('darken-4');
-        });
 
-    $('.verbs .card-panel').click(function() {
-        var link = $(this).attr('id');
-        window.location.href = link;
-        return false;
-    })
-    </script>
+    <script src="{{ url_for('static', filename='js/button_activate.js') }}"></script>
 </body>
 
 </html>

@@ -39,8 +39,12 @@ module.exports = function(grunt) {
                 files: ['app/static/css/scss/*.scss'],
                 tasks:['concat:dev', 'sass:dev', 'cssmin:dev']
             }
+        },
+
+        jshint: {
+            dev: ['gruntfile.js', 'app/static/js/*.js']
         }
     });
 
     grunt.registerTask('default', ['watch:dev']);
-}
+};
