@@ -1,3 +1,0 @@
-S'gkwJrhqSMNGaSpYMLMug'
-p0
-.
